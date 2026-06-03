@@ -156,25 +156,7 @@ python run.py --schedule
 ## Architecture
 
 ```
-┌─────────────┐    IMAP/SSL   ┌──────────────┐
-│  Gmail      │◄─────────────►│ gmail_client │
-│  Inbox      │               └──────┬───────┘
-└─────────────┘                      │
-                                      ▼
-                              ┌──────────────┐     Anthropic API
-                              │    agent     │────────────────────►
-                              │ (pipeline)   │◄──── Claude analysis
-                              └──────┬───────┘
-                                      │
-                            ┌─────────▼──────────┐
-                            │      SQLite DB      │
-                            │  emails + runs      │
-                            └─────────┬───────────┘
-                                      │
-                              ┌───────▼────────┐
-                              │   Streamlit    │
-                              │   Dashboard    │
-                              └────────────────┘
+![Smart Gmail Agent — System Architecture](assets/system_diagram.png)
 ```
 
 ---
