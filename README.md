@@ -155,9 +155,7 @@ python run.py --schedule
 
 ## Architecture
 
-```
 ![Smart Gmail Agent — System Architecture](assets/system_diagram.png)
-```
 
 ---
 
