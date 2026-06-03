@@ -65,7 +65,7 @@ smart_gmail_agent/
 ### 2. Install
 
 ```bash
-git clone <this-repo>
+git clone https://github.com/Ektalyte/SmartGmailAgent.git
 cd smart_gmail_agent
 
 # Create and activate a virtual environment (recommended)
