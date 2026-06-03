@@ -1,0 +1,10 @@
+# Smart Gmail Agent — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+anthropic>=0.40.0          # Claude AI (analysis engine)
+streamlit>=1.40.0          # Dashboard UI
+python-dotenv>=1.0.0       # .env file loader
+schedule>=1.2.2            # Periodic scheduler
+
+# Standard library modules used (no install needed):
+#   imaplib, email, sqlite3, logging, threading, json, re, datetime
